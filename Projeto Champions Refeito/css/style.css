@@ -206,7 +206,7 @@ i{
 }
 
 .jogos{
-    width: 800px;
+    width: 900px;
 }
 .titulo-slider{
     text-align: center;
@@ -232,13 +232,6 @@ i{
     width: auto;
 }
 
-.carousel-item:hover{
-    background: #ffffff;
-}
-
-.carousel-inner img:hover{
-    opacity: 0.8;
-}
 
 .carousel-control-prev{
     margin-left: -40px;
