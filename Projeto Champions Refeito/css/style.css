@@ -24,7 +24,6 @@ h1{
 
 .login{
     border-right: 1px solid #fff;
-    padding-right: 40px;
 }
 
 p{
@@ -227,27 +226,28 @@ i{
     padding: 20px;
 }
 
-.carousel-item{
+section .carousel-item{
     background-position: center center;
     width: auto;
 }
 
+section .carousel-item:hover{
+    background: #ffffff;
+}
 
-.carousel-control-prev{
-    margin-left: -40px;
+section .carousel-inner img:hover{
+    opacity: 0.8;
 }
-.carousel-control-next{
-    margin-right: 40px;
-}
+
 
 @media(max-width:1199px){
-    .carousel-caption{
+    sextion .carousel-caption{
         width: 450px;
     }
 }
 
 @media(max-width:992px){
-    .carousel-item{
+    sextion .carousel-item{
         margin-left: -200px;
     }
 }
